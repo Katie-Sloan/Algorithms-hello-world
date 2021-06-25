@@ -1,13 +1,7 @@
 public class HelloGoodbye {
-
     public static void main(String[] args) {
-        helloGoodbye(args[0], args[1]);
+        System.out.println("Hello " + args[0] + " and " + args[1] + ".");
+        System.out.println("Goodbye " + args[1] + " and " + args[0] + ".");
     }
-
-    public static void helloGoodbye(String firstName, String secondName) {
-        System.out.println("Hello " + firstName + " and " + secondName + ".");
-        System.out.println("Goodbye " + secondName + " and " + firstName + ".");
-    }
-
 }
 
